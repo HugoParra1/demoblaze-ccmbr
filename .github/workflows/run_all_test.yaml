@@ -17,6 +17,7 @@ jobs:
         run: npx cypress run --reporter mocha-allure-reporter --reporter-options allureResultsPath=allure-results
 
       - name: Generate Allure report
+        if: always()
         run: npx allure generate allure-results --clean -o allure-reports
 
       - name: Upload Allure report
