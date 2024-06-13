@@ -1,0 +1,29 @@
+{
+  "name": "demoblaze-ccmbr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoParra1/demoblaze-ccmbr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoParra1/demoblaze-ccmbr/issues"
+  },
+  "homepage": "https://github.com/HugoParra1/demoblaze-ccmbr#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.6",
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^3.0.0-beta.3",
+    "cypress": "^13.11.0"
+  },
+  "dependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "esbuild": "^0.21.5"
+  }
+}
